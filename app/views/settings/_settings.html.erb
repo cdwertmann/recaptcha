@@ -1,0 +1,10 @@
+<fieldset>
+  <legend>Plugin Settings</legend>
+  <p>Get a <a href="http://www.google.com/recaptcha">recaptcha keypair</a> and enter it here:</p>
+  <p>
+    <label>Private Key</label><%= text_field_tag 'settings[recaptcha_private_key]', settings['recaptcha_private_key'] %>
+  </p>
+  <p>
+    <label>Public Key</label><%= text_field_tag 'settings[recaptcha_public_key]', settings['recaptcha_public_key'] %>
+  </p>
+</fieldset>
