@@ -5,7 +5,7 @@ Redmine::Plugin.register :recaptcha do
   author 'Christoph Dwertmann'
   description 'Adds a recaptcha to the account registration page'
   version '1.0.0'
-  url 'http://example.com/path/to/plugin'
+  url 'https://github.com/cdwertmann/recaptcha'
   author_url 'https://github.com/cdwertmann'
   settings({
      :partial => 'settings/settings',
