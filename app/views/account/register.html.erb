@@ -26,7 +26,7 @@
   <p><%= custom_field_tag_with_label :user, value %></p>
 <% end %>
 
-<%= recaptcha_tags :hl=>current_language, :public_key => Setting.plugin_recaptcha['recaptcha_public_key'] %>
+<%= recaptcha_tags :hl=>current_language, :site_key => Setting.plugin_recaptcha['recaptcha_public_key'] %>
 </div>
 
 <%= submit_tag l(:button_submit) %>
