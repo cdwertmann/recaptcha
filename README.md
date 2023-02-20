@@ -1,4 +1,4 @@
-Recaptcha Redmine 2.x plugin
+Recaptcha Redmine 5.x plugin
 ===========================
 
 Redmine 5.x plugin that adds a recaptcha to the account registration page.
