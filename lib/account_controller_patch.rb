@@ -1,4 +1,4 @@
-module AccountControllerRecaptchaPatch
+module AccountControllerPatch
   def self.included(base)
     base.class_eval do
       def register
@@ -46,4 +46,4 @@ module AccountControllerRecaptchaPatch
   end
 end
 
-AccountController.send(:include, AccountControllerRecaptchaPatch)
+AccountController.send(:include, AccountControllerPatch)
